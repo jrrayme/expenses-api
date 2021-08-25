@@ -1,8 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const { createServer } = require("http");
-const { auth } = require("express-oauth2-bearer");
-// 👉 Replace this with express-oauth2-bearer require 👈
+const { auth } = require("express-oauth2-bearer"); // 👉 Replace this with express-oauth2-bearer require 👈
 const {
   checkUrl,
   APP_URL, // Public URL for this app
